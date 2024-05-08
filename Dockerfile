@@ -1,5 +1,5 @@
 # Uses Bun's distroless image as the base image
-FROM oven/bun:distroless
+FROM oven/bun:alpine
 
 # Set the working directory
 WORKDIR /app
