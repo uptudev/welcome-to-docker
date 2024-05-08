@@ -5,8 +5,8 @@ FROM oven/bun:alpine
 WORKDIR /app
 
 # Copy the app directories
-COPY ./src ./
-COPY ./static ./
+COPY ./src ./src
+COPY ./static ./static
 
 # Copy the app files
 COPY package.json ./
