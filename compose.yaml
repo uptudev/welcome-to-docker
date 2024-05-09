@@ -1,0 +1,6 @@
+services:
+  web:
+    image: welcome-to-docker
+    ports:
+      - "3000:3000"
+    command: bun ./build/index.js
